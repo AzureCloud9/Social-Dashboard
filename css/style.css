@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.sidebar {
+    background-color: #1992d4;
+    height: 100vh;
+    color: white;
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 30px 40px;
+}
+
+.logo-text h1 {
+    font-size: 25px;
+    margin: 0px 20px;
+}
+
+.icon-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px 40px;
+}
+
+.icon-text p {
+    margin-left: 10px;
+    font-size: 20px;
+    margin: 0px 20px;
+}
+
+.main {
+    background-color: white;
+}
+
+.list-items-top {
+    margin-top: 80px;
+}
+
+/* Main Screen */
+
+.main {
+    display: grid;
+    background-color: white;
+    height: 100vh;
+    grid-template-rows: 20% 80%;
+}
+
+.header {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 20px;
+    font-size: 20px;
+}
+
+.avatarNavBar {
+    border-radius: 25px;
+    margin: 0px 20px;
+}
+
+.form-input {
+    width: 600px;
+    height: 25px;
+    background-color: lightgrey;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    margin-left: 20px;
+    margin-right: 200px;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.username {
+    margin-right: 465px;
+}
+
+.newButton {
+    background-color: #1992d4;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 0px 10px;
+}
+
+.newButton p {
+    padding: 2px 20px;
+    color: white;
+}
+
+.content {
+    background-color: #e2e8f0;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.card {
+    background-color: white;
+    border-left: 5px solid orange;
+    border-radius: 10px;
+    width: 90%;
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    padding-left: 20px;
+}
+
+.card > h6 {
+    font-size: 1.3rem;
+    padding-top: 25px;
+}
+
+.projects {
+    margin-top: 50px;
+    margin-left: 50px;
+    
+}
+
+.projects > h4 {
+    font-size: 1.3rem;
+
+}
+
+.icons {
+    margin-top: 10px;
+    margin-left: 200px;
+}
+
+.icons svg {
+    margin: 0px 10px;
+}
+
+.trend {
+    display: grid;
+    grid-template-rows: 50% ;
+    margin-top: 50px;
+}
+
+.trend  h4 {
+    font-size: 1.3rem;
+    padding-top: 0px;
+}
+
+.trendCard {
+    width: 273px;
+    height: 435px;
+    margin-top: 16px;
+    background-color: white;
+    border-radius: 10px;
+    border-bottom: solid 1px black;
+    
+}
+
+.trendCards {
+    border-bottom: solid 1px #e2e8f0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+
+}
+.trendCardss {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+
+}
+
+.trendpfp {
+    width: 55px;
+    border-radius: 25px;
+    margin-right: 15px;
+}
+
+
+
+
